@@ -270,18 +270,52 @@
 # result=float(int_number)
 # print(result)
 
-int_number=2 #converting int,string to float number and viceversa explicitly
-float_number=0.2
-int_number1="rach"
-string="984"
-result1=float(int_number)
-result2=int(float_number)
-result3=str(int_number1)
-result4=int(string)
-print(result1,result2,result3,result4)
+# int_number=2 #converting int,string to float number and viceversa explicitly
+# float_number=0.2
+# int_number1="rach"
+# string="984"
+# result1=float(int_number)
+# result2=int(float_number)
+# result3=str(int_number1)
+# result4=int(string)
+# print(result1,result2,result3,result4)
 
+# num1=str(input("enter your first value")) #Taking user input and printing in string
+# num2=str(input("enter your second value"))
+# result=num1+num2
+# print(result)
 
+# num1=int(input("enter your first value")) #Taking user input and print in int
+# num1=int(input("enter your first value")) 
+# result=num1+num2
+# print(result)
 
+# namea=int(input("enter your first name"))
+# print("hello",namea)
+# print(type(namea)) 
+ #for checking datatype of the input value
+
+''' Taking input as float and Typecasting to float'''
+# namea=float(input("enter your first name")) 
+# print("hello",namea)
+# print(type(namea))
+
+# price=float(input("enter price of rose"))
+# print("the price of rose is ", price)
+
+# Taking list1 input from user as list
+list1 = list(input("Please Enter Elements of list1 "))
+ 
+# Taking list2 input from user as list
+list2 = list(input("Please Enter Elements of list2"))
+ 
+ 
+# appending list2 into list1 using .append function
+for i in list2:
+    list1.append(i)
+
+# printing list1
+print(list1)
 
 
 
