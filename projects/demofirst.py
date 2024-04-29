@@ -303,19 +303,54 @@
 # price=float(input("enter price of rose"))
 # print("the price of rose is ", price)
 
-# Taking list1 input from user as list
-list1 = list(input("Please Enter Elements of list1 "))
+# # Taking list1 input from user as list
+# list1 = list(input("Please Enter Elements of list1 "))
  
-# Taking list2 input from user as list
-list2 = list(input("Please Enter Elements of list2"))
+# # Taking list2 input from user as list
+# list2 = list(input("Please Enter Elements of list2"))
  
  
-# appending list2 into list1 using .append function
-for i in list2:
-    list1.append(i)
+# # appending list2 into list1 using .append function
+# for i in list2:
+#     list1.append(i)
 
-# printing list1
-print(list1)
+# # printing list1
+# print(list1)
+
+' ' ' string fucntions '
+# string="hello bhanu"
+# new=string.capitalize()
+# print(new)
+
+# string="hello bhanu this is new book"
+# new=string.title()
+# print(new)
+
+# string="Hello Bhanu"
+# new=string.lower()
+# print(new)
+
+# string="Hello Bhanu"
+# new=string.upper()
+# print(len(new))
+
+# string="Hello,Hello,Hello Bhanu Bhanu this is " #creating object
+# count_hello=string.count("Hello",2)
+# print("the number of appear of hello is",count_hello)
+
+# string="Hello,Hello,Hello Bhanu Bhanu this is "
+# count_hello=string.count("Hello",2) #assigning variable 
+# print("the number of appear of hello is",count_hello)
+
+# string="learning python series"
+# index=string.find("series",27)
+# print("the index of string is ",index)
+
+string1=["desert","papaya","orange"]
+add =",".join(string1)
+print(add)
+
+
 
 
 
