@@ -346,9 +346,23 @@
 # index=string.find("series",27)
 # print("the index of string is ",index)
 
-string1=["desert","papaya","orange"]
-add =",".join(string1)
-print(add)
+# string1=["desert","papaya","orange"] #join function
+# add =",".join(string1)
+# print(add)
+
+' '' replace ' ' '
+# string="there is large motorbike rally in the country"
+# print(string.replace("rally","troops"))
+
+# string="there is large motorbike rally in the country"
+# print(string.swapcase())
+
+# string="there is large motorbike rally in the country"
+# print(string.casefold())
+
+string=("new","wardrobe","directory")
+x='*'.join(string)
+print(x)
 
 
 
