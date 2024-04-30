@@ -360,9 +360,47 @@
 # string="there is large motorbike rally in the country"
 # print(string.casefold())
 
-string=("new","wardrobe","directory")
-x='*'.join(string)
-print(x)
+# string=("new","wardrobe","directory")
+# x='*'.join(string)
+# print(x)
+
+# string_check="new"  
+# print(string_check.strip())
+
+''' list methods and fucntions'''
+# listcheck=["apple","banana","fruit"]
+# # result1=listcheck.append(10)
+# result2=listcheck.insert(1,34) #takes two arguments
+# result6=listcheck.sort()
+# # result6=listcheck.reverse()
+# # result3=listcheck.remove(5)
+# print(listcheck)
+
+#tuples creation with indexing,tuples aree imuutable 
+# my_tuple=[1,2,3,3,3,'a','b','c','d']
+my_tuple=(1,2,3,3,3,'a','b','c','d')
+# print(my_tuple[0])
+# print(my_tuple[1])
+# print(my_tuple[2])
+# print(my_tuple[5])
+# print(len(my_tuple))
+# print(tuple.count(my_tuple))
+# print(tuple.index(my_tuple,"a"))
+# tuple_count=my_tuple.count(1)
+# print(tuple_count)
+
+# list1 = [1,2,3]
+# list2 = list1.append(5)
+# print(list2)
+
+my_list = [1, 2, 3, 4, 5]
+print(my_list.extend([2,3,4]))
+
+# Remove and return the element at index 2,modifies original list
+# removed_element = my_list.pop(4)
+# print("the updated list is ",my_list)
+
+
 
 
 
