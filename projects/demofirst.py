@@ -378,7 +378,7 @@
 
 #tuples creation with indexing,tuples aree imuutable 
 # my_tuple=[1,2,3,3,3,'a','b','c','d']
-my_tuple=(1,2,3,3,3,'a','b','c','d')
+# my_tuple=(1,2,3,3,3,'a','b','c','d')
 # print(my_tuple[0])
 # print(my_tuple[1])
 # print(my_tuple[2])
@@ -393,13 +393,40 @@ my_tuple=(1,2,3,3,3,'a','b','c','d')
 # list2 = list1.append(5)
 # print(list2)
 
-my_list = [1, 2, 3, 4, 5]
-print(my_list.extend([2,3,4]))
+# my_list = [1, 2, 3, 4, 5]
+# print(my_list.extend([2,3,4]))
 
 # Remove and return the element at index 2,modifies original list
 # removed_element = my_list.pop(4)
 # print("the updated list is ",my_list)
 
+# my_dict={'name':'rach','age':12,'gender':'f'}
+# print(my_dict['name'])
+# print(my_dict['age'])
+# print(my_dict['gender'])
+# del my_dict['age']
+# my_dict.pop('gender') # Removes the key-value pair with the specified key and returns the value
+# print(my_dict)
+
+# my_dict = {"name": "John", "age": 30}
+# print(my_dict.keys())
+# print(my_dict.get("name"))
+# print(my_dict.get("age"))
+# print(my_dict.get("city"))
+# print(my_dict.values())
+# print(my_dict.items()) # Returns a view object that displays a list of key-value pairs (tuples)
+# print(my_dict.popitem()) # Removes and returns the last key-value pair (as a tuple) 
+# print(my_dict.clear())
+
+
+dict_test={"fruit":"mango","veg":"non-veg","car":"tesla","filter":"tobbaco"}
+# print(dict_test.keys()) #printing keys only
+# print(dict_test.values()) ##printing values only
+# print(dict_test.pop("car")) #printing mango out
+# print(dict_test.popitem()) #removes n returns last key-value pair as tuple
+# print(dict_test.get("filter")) #Returns the value associated with the specified key.
+print(dict_test.get("fruit"))
+print(dict_test.get("veg"))
 
 
 
